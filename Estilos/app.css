@@ -1,19 +1,53 @@
-nav, .footer {
+/* Estilos Nav y Footer */
+nav, footer {
     background-color: black;
 }
 
-.footer .container {
-    height: 40px;
-    padding: 8px;
+footer {
+    font-size: 0.7rem;
 }
 
+.navbar {
+    padding-left: 1.5%;
+}
 
+.navbar-nav{
+    padding-left: 31.5%;
+}
 
 .navbar-toggler-icon {
     color: #f8f9fa;
     filter: invert(100%);
 }
 
+/* Css Propio para Pagina Index */
+.Welcome-section {
+    background-image: url(../Media/Fondos\ General/Fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -140px;
+    background-position-y: 120px;
+}
+
+.Welcome-section img {
+    padding-bottom: 30%;
+}
+/* Css Propio para Pagina Biografia */
+.bio-lin {
+    background-image: url(../Media/Fondos\ General/Fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bio-lin .container {
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    backdrop-filter: blur(8px);
+    font-size: 1rem;
+}
+
+/* Css propio para Pagina Music */
 .colfot {
     padding: 0;
     margin: 0;
@@ -33,31 +67,25 @@ section .container-fluid {
     padding: 0;
 }
 
-.navbar {
-    padding-left: 1.5%;
+/* Css Propio para Pagina Tour Dates */
+.Dates {
+   background-image: url(../Media/Fondos\ General/FondoTicket.jpg);
+   background-size: cover;
+   object-fit: cover;
 }
 
-.navbar-nav{
-    padding-left: 31.5%;
+.Dates .row .col span{
+    font-size: 1.7rem;
 }
 
-
-.bio-lin {
-    background-image: url(../Media/Fotos/FondoMerch.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.firstDate {
+    padding-top: 35%;
 }
 
-.bio-lin .container {
-    color: #f8f9fa;
-    padding-top: 2%;
-    padding-bottom: 4%;
-    backdrop-filter: blur(10px);
-}
-
+/* Css Para Pagina Merch */
 .colMerch {
     width: 300px;
-    font-size: large;
+    font-size: 1.5rem;
 }
 
 .img-fluid {
@@ -66,21 +94,7 @@ section .container-fluid {
 }
 
 .merch-section {
-    background-image: url(../Media/Fotos/LinkinParkBerlin2010.jpg);
+    background-image: url(../Media/Fondos\ General/Fondo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.Dates {
-   background-image: url(../Media/Fotos/b2u2ed8psvzljc02.jpg);
-   background-size: cover;
-   object-fit: cover;
-}
-
-.Dates .row .col{
-    font-size: 2rem;
-}
-
-.firstDate {
-    padding-top: 35%;
 }
