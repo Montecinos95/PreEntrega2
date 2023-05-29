@@ -1,0 +1,86 @@
+nav, .footer {
+    background-color: black;
+}
+
+.footer .container {
+    height: 40px;
+    padding: 8px;
+}
+
+
+
+.navbar-toggler-icon {
+    color: #f8f9fa;
+    filter: invert(100%);
+}
+
+.colfot {
+    padding: 0;
+    margin: 0;
+}
+
+.colfot img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    margin: 0;
+}
+
+section .container-fluid {
+    padding: 0;
+}
+
+.navbar {
+    padding-left: 1.5%;
+}
+
+.navbar-nav{
+    padding-left: 31.5%;
+}
+
+
+.bio-lin {
+    background-image: url(../Media/Fotos/FondoMerch.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bio-lin .container {
+    color: #f8f9fa;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    backdrop-filter: blur(10px);
+}
+
+.colMerch {
+    width: 300px;
+    font-size: large;
+}
+
+.img-fluid {
+    height: auto;
+    max-width: 100%;
+}
+
+.merch-section {
+    background-image: url(../Media/Fotos/LinkinParkBerlin2010.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Dates {
+   background-image: url(../Media/Fotos/b2u2ed8psvzljc02.jpg);
+   background-size: cover;
+   object-fit: cover;
+}
+
+.Dates .row .col{
+    font-size: 2rem;
+}
+
+.firstDate {
+    padding-top: 35%;
+}
